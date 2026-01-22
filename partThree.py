@@ -6,9 +6,11 @@ def main():
 
 
 def pounds_to_float(d):
-    # TODO
+    Pounds = d.replace("£", "")
+    return float (Pounds)
 
 def percent_to_float(p):
-    # TODO
-
+    Percent = p.replace("%", "") 
+    Percent = (float(Percent) / 100)
+    return Percent
 main()
